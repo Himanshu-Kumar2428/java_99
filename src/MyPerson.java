@@ -5,7 +5,7 @@ public class MyPerson {
         SchoolStudent st=new SchoolStudent("Ghaziabad","B.tech");
         st.getCourse();
         st.getAddress();
-        set.getCourse();
-        get.getAddress();
+//        set.getCourse();
+//        get.getAddress();
     }
 }
