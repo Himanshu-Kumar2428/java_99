@@ -1,7 +1,8 @@
+package UNIT_1;
+
 import java.io.DataInputStream;
 import java.io.IOException;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+
 public class myException {
     public static void main(String[] args)throws IOException {
         int x,y,z=0;
