@@ -1,0 +1,25 @@
+package UNIT_3;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+import java.util.Iterator;
+
+public class ArrayList2 {
+    public static void main(String[] args) {
+        ArrayList<String> products=new ArrayList<>();
+        System.out.println("Enter the number of product :"
+        );
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            products.add(sc.nextLine());
+        }
+        Collections.sort(products);
+        Iterator it =products.iterator();
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
+
+    }
+}

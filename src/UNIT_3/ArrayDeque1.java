@@ -1,0 +1,17 @@
+package UNIT_3;
+import java.util.ArrayDeque;
+
+public class ArrayDeque1 {
+    public static void main(String[] args) {
+        ArrayDeque<String> adq=new ArrayDeque<>();
+        adq.add("1st");
+        adq.addFirst("0");
+        adq.addLast("2nd");
+        System.out.println(adq);
+//        adq.addFirst("-2");
+//        adq.addLast("4");
+        System.out.println(adq.offerFirst("-1"));
+        System.out.println(adq.offerLast("3"));
+        System.out.println(adq);
+    }
+}
